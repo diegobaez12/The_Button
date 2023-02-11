@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>946</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>2</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(190, 232, 255)</string>
+  </property>
+  <widget class="QLabel" name="lblMensaje">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>220</y>
+     <width>431</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#599bb3;
+font-family:Arial;
+	font-size:20px;
+	font-weight:bold;</string>
+   </property>
+   <property name="text">
+    <string>Boton:hola.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEmpezar">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>260</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+QPushButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}</string>
+   </property>
+   <property name="text">
+    <string>Boton</string>
+   </property>
+  </widget>
+  <zorder>btnEmpezar</zorder>
+  <zorder>lblMensaje</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
